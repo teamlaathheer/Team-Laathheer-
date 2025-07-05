@@ -1,170 +1,95 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Team Laathheer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
+      font-family: 'Poppins', sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #111;
+      padding: 0;
+      background: url('https://i.ibb.co/NnJgD8qC/HR.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: #fff;
-    }header {
-  background-image: url('https://images.unsplash.com/photo-1533064114780-512a4e6e0f2d?auto=format&fit=crop&w=1350&q=80');
-  background-size: cover;
-  background-position: center;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-header h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-
-header p {
-  font-size: 1.2em;
-  color: #ccc;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px 20px;
-}
-
-.card {
-  background-color: #1c1c1c;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 15px;
-}
-
-.card-content h3 {
-  margin: 0;
-  font-size: 1.1em;
-}
-
-.card-content a {
-  color: #1db954;
-  text-decoration: none;
-}
-
-.spotify-section {
-  padding: 40px 20px;
-  background-color: #000;
-  text-align: center;
-}
-
-.spotify-section h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.spotify-links,
-.social-links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.spotify-links a,
-.social-links a {
-  background-color: #1db954;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.spotify-links a:hover,
-.social-links a:hover {
-  background-color: #17a44d;
-}
-
-.social-links img {
-  width: 24px;
-  height: 24px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #111;
-  font-size: 0.9em;
-  color: #777;
-}
-
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .artist {
+      margin-bottom: 3rem;
+    }
+    .artist img {
+      max-width: 200px;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .links a {
+      color: #00ffff;
+      text-decoration: none;
+      display: block;
+      margin: 0.5rem 0;
+    }
+    .tagline {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      font-weight: bold;
+    }
   </style>
-</head><body>
+</head>
+<body>
   <header>
     <h1>Team Laathheer</h1>
-    <p>Official Music & Shayari Page</p>
-  </header>  <section class="grid">
-    <div class="card">
-      <img src="https://img.youtube.com/vi/4Zj7G1qxs64/hqdefault.jpg" alt="Kai Din Thumbnail">
-      <div class="card-content">
-        <h3><a href="https://youtu.be/4Zj7G1qxs64" target="_blank">Kai Din</a></h3>
+    <div class="tagline">HR34 Tibbya Te Likhaari H Ji</div>
+  </header>
+  <nav>
+    <a href="#deep">Deep Laath</a>
+    <a href="#mohit">Mohit Heer</a>
+  </nav>
+  <div class="container">
+    <section class="artist" id="deep">
+      <h2>Deep Laath</h2>
+      <img src="https://i.ibb.co/C3mYnhBY/image.jpg" alt="Deep Laath">
+      <p><strong>Birthday:</strong> 8 May</p>
+      <p>Deep Laath is a growing artist, singer, writer, and shayar from Bassai village in Mahendergarh district. He has been active in the field for many years. His debut song as a singer and artist, "Rao Shabh Te Yaari," was released in January 2025. He has also written many popular Haryanvi songs.</p>
+      <div class="links">
+        <a href="https://open.spotify.com/artist/77JeTIp585MsQPZhC0gxPd?si=b7tLIZB4QMOFsq2cxr68NQ" target="_blank">Spotify</a>
+        <a href="https://instagram.com/p_deep_laath" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="card">
-      <img src="https://img.youtube.com/vi/hzQfU8Jhpmw/hqdefault.jpg" alt="Riyasat Thumbnail">
-      <div class="card-content">
-        <h3><a href="https://youtu.be/hzQfU8Jhpmw" target="_blank">Riyasat</a></h3>
+    </section>
+    <section class="artist" id="mohit">
+      <h2>Mohit Heer</h2>
+      <img src="https://i.ibb.co/CKqtY6R4/Rao-sahab-te-yaari-trending-no.jpg" alt="Mohit Heer">
+      <p><strong>Birthday:</strong> 9 February</p>
+      <p>Mohit Heer is a brilliant writer and poet from the same village — Bassai in Mahendergarh. His popular songs include "Agniveer," "Yaar Bamb," "Kai Din," "December," and many more.</p>
+      <div class="links">
+        <a href="https://open.spotify.com/artist/7KVjUg2sIok86HPXnb15O4?si=ekk6IiOuTnWcaJSImknCMA" target="_blank">Spotify</a>
+        <a href="https://instagram.com/mohit__heer" target="_blank">Instagram</a>
       </div>
-    </div>
-    <div class="card">
-      <img src="https://img.youtube.com/vi/qUmW8_IeI9U/hqdefault.jpg" alt="Purusharth Thumbnail">
-      <div class="card-content">
-        <h3><a href="https://youtu.be/qUmW8_IeI9U" target="_blank">Purusharth</a></h3>
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://img.youtube.com/vi/y_E4FGMfKrM/hqdefault.jpg" alt="Rao Shabh te Yaari Thumbnail">
-      <div class="card-content">
-        <h3><a href="https://youtu.be/y_E4FGMfKrM" target="_blank">Rao Shabh te Yaari</a></h3>
-      </div>
-    </div>
-  </section>  <section class="spotify-section">
-    <h2>Listen on Spotify</h2>
-    <div class="spotify-links">
-      <a href="https://open.spotify.com/artist/77JeTIp585MsQPZhC0gxPd?si=b7tLIZB4QMOFsq2cxr68NQ" target="_blank">Deep Laath</a>
-      <a href="https://open.spotify.com/artist/7KVjUg2sIok86HPXnb15O4?si=ekk6IiOuTnWcaJSImknCMA" target="_blank">Mohit Heer</a>
-      <a href="https://open.spotify.com/artist/4UZZGb8MxEGydgVZymzzjI?si=bn0MxI6QRB2rbnpDFtYC7A" target="_blank">Team Laathheer</a>
-    </div><h2>Follow Us on Instagram</h2>
-<div class="social-links">
-  <a href="https://instagram.com/p_deep_laath" target="_blank">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/instagram-new.png" alt="Deep Laath Instagram">
-    @p_deep_laath
-  </a>
-  <a href="https://instagram.com/mohit__heer" target="_blank">
-    <img src="https://img.icons8.com/ios-glyphs/60/ffffff/instagram-new.png" alt="Mohit Heer Instagram">
-    @mohit__heer
-  </a>
-</div>
-
-  </section>  <footer>
-    &copy; 2025 Team Laathheer. All rights reserved.
-  </footer>
-</body></html>
+    </section>
+  </div>
+</body>
+</html>
