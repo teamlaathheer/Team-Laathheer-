@@ -1,170 +1,172 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Official website of Team Laathheer - Deep Laath, Mohit Heer, and more."/>
-  <meta name="keywords" content="Team Laathheer, Deep Laath, Mohit Heer, Haryanvi songs, Rao Shabh te Yaari, Namo Namo"/>
-  <meta name="author" content="Team Laathheer"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official website of Team Laathheer, featuring artists Deep Laath and Mohit Heer, with latest songs, bios, and contact information." />
   <title>Team Laathheer - Official Page</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      background: #111;
-      color: #fff;
-      background-image: url('bg.jpg');
+      font-family: 'Segoe UI', sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
       background-size: cover;
-      background-position: center;
+      color: white;
     }
-
     header {
-      background-color: rgba(0, 0, 0, 0.8);
-      padding: 30px;
       text-align: center;
-      font-size: 32px;
+      padding: 30px;
+      font-size: 2em;
       font-weight: bold;
-      color: #00ffcc;
-      border-bottom: 2px solid #00ffcc;
+      background-color: rgba(0, 0, 0, 0.6);
     }
-
     section {
       padding: 40px 20px;
-      text-align: center;
-    }
-
-    h2 {
-      color: #ffcc00;
-      margin-bottom: 20px;
-    }
-
-    .song-thumbnail {
-      width: 280px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 20px;
       border-radius: 12px;
-      box-shadow: 0 0 10px #000;
-      margin: 15px;
     }
-
-    .song-list {
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #ffd700;
+    }
+    .songs-grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 20px;
     }
-
-    .artist {
-      max-width: 500px;
-      margin: 30px auto;
-      background: rgba(255,255,255,0.05);
-      border-radius: 12px;
-      padding: 20px;
+    .song-card {
+      width: 280px;
+      background: #1c1c1c;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
     }
-
-    .artist img {
+    .song-card:hover {
+      transform: scale(1.03);
+    }
+    .song-card img {
       width: 100%;
-      max-width: 280px;
-      border-radius: 12px;
+      display: block;
+    }
+    .song-card p {
+      color: #fff;
+      margin: 10px;
+      font-size: 1.1em;
+      text-align: center;
+    }
+    .artist {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .artist img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
       margin-bottom: 10px;
     }
-
-    a.button {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      background: #00ffcc;
-      color: #000;
+    .contact a {
+      color: #00f7ff;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
+      display: block;
+      margin: 10px 0;
+      font-size: 1.1em;
     }
-
-    .contact {
-      margin-top: 40px;
-    }
-
     footer {
-      margin-top: 60px;
-      padding: 20px;
-      background: rgba(255,255,255,0.05);
       text-align: center;
-      color: #ccc;
-      font-size: 15px;
-    }
-
-    a {
-      color: #00ffcc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
+  <header>Team Laathheer - Official Page</header>  <section>
+    <h2>🎧 Recent Release</h2>
+    <div class="artist">
+      <img src="namo-namo.jpg" alt="Namo Namo Poster">
+      <p><strong>Title:</strong> Namo Namo<br>
+      <strong>By:</strong> Mohit Heer, Deep Laath<br>
+      <strong>Music:</strong> Harris Music<br>
+      <strong>Label:</strong> Two Brothers Film Production<br>
+      <strong>Video:</strong> Shiva Jangra<br>
+      <strong>Released:</strong> Now Streaming<br>
+      <a href="https://youtu.be/leQUOIXbOHw?si=R0xllW7HYPrjQZ40" target="_blank">▶ Watch on YouTube</a><br>
+      <a href="https://open.spotify.com/album/7dnnfgkMRYkqCCZI110zCa?si=XFRXAXtvTI6fpq_REJCFCQ" target="_blank">🎵 Listen on Spotify</a>
+      </p>
+    </div>
+  </section>  <section class="songs-section">
+    <h2>Songs</h2>
+    <div class="songs-grid">
+      <div class="song-card">
+        <a href="https://youtu.be/4Zj7G1qxs64" target="_blank">
+          <img src="https://img.youtube.com/vi/4Zj7G1qxs64/hqdefault.jpg" alt="Kai Din">
+        </a>
+        <p>Kai Din</p>
+      </div>
+      <div class="song-card">
+        <a href="https://youtu.be/hzQfU8Jhpmw" target="_blank">
+          <img src="https://img.youtube.com/vi/hzQfU8Jhpmw/hqdefault.jpg" alt="Riyasat">
+        </a>
+        <p>Riyasat</p>
+      </div>
+      <div class="song-card">
+        <a href="https://youtu.be/qUmW8_IeI9U" target="_blank">
+          <img src="https://img.youtube.com/vi/qUmW8_IeI9U/hqdefault.jpg" alt="Purusharth">
+        </a>
+        <p>Purusharth</p>
+      </div>
+      <div class="song-card">
+        <a href="https://youtu.be/y_E4FGMfKrM" target="_blank">
+          <img src="https://img.youtube.com/vi/y_E4FGMfKrM/hqdefault.jpg" alt="Rao Shabh Te Yaari">
+        </a>
+        <p>Rao Shabh Te Yaari</p>
+      </div>
+      <div class="song-card">
+        <a href="https://youtu.be/CXFxScKsOhk" target="_blank">
+          <img src="https://img.youtube.com/vi/CXFxScKsOhk/hqdefault.jpg" alt="Kismat Te Rao Sahab">
+        </a>
+        <p>Kismat Te Rao Sahab</p>
+      </div>
+    </div>
+  </section>  <section>
+    <h2>Know the Artists</h2><div class="artist">
+  <img src="deep-laath.jpg" alt="Deep Laath">
+  <p><strong>Deep Laath</strong><br>
+  A growing artist, singer, writer, and shayar from Bassai, Mahendergarh. Debuted with the song <strong>Rao Shabh Te Yaari</strong> in January 2025.<br>
+  He has written and sung many tracks including Let Me Love You, Dil Me Bhola, 2 Ghode, SYL, Kisan, Agneepath, Desi Man, Taare, Gulab, Kai Din, Rang, Riyasat, Babu Mere, Purusharth, Kedarnath, and Kismat Te Rao Sahab.<br>
+  🎂 8 May<br>
+  <a href="https://instagram.com/team_laathheer" target="_blank">Instagram (Team Laathheer)</a>
+  </p>
+</div>
 
-<header>Team Laathheer - Official Page</header>
+<div class="artist">
+  <img src="mohit-heer.jpg" alt="Mohit Heer">
+  <p><strong>Mohit Heer</strong><br>
+  A rising singer and artist from Bassai, Mahendergarh. Known for his lyrical and singing contribution in <strong>Rao Shabh Te Yaari</strong> debut track.<br>
+  🎂 9 February<br>
+  <a href="https://instagram.com/team_laathheer" target="_blank">Instagram (Team Laathheer)</a>
+  </p>
+</div>
 
-<section id="recent-release">
-  <h2>🎵 Recent Release: Namo Namo</h2>
-  <img src="namo-namo.jpg" alt="Namo Namo Poster" class="song-thumbnail"/>
-  <p><strong>By:</strong> Mohit Heer, Deep Laath</p>
-  <a class="button" href="https://youtu.be/leQUOIXbOHw?si=R0xllW7HYPrjQZ40" target="_blank">Watch on YouTube</a>
-  <a class="button" href="https://open.spotify.com/album/7dnnfgkMRYkqCCZI110zCa?si=XFRXAXtvTI6fpq_REJCFCQ" target="_blank">Listen on Spotify</a>
-</section>
+<div class="artist">
+  <img src="team.jpg" alt="Team Laathheer">
+  <p><strong>Team Laathheer</strong><br>
+  HR34 Tibbya Te Likhaari H Ji. A creative collective featuring artists Deep Laath and Mohit Heer. The team is co-managed by Navdeep and Yogesh.<br>
+  <a href="https://instagram.com/team_laathheer" target="_blank">Instagram (Team Laathheer)</a>
+  </p>
+</div>
 
-<section id="songs">
-  <h2>🎧 Songs</h2>
-  <div class="song-list">
-    <a href="https://youtu.be/4Zj7G1qxs64?si=WxqvITzWzM1alOsh" target="_blank">
-      <img src="kai-din.jpg" alt="Kai Din" class="song-thumbnail"/>
-    </a>
-    <a href="https://youtu.be/hzQfU8Jhpmw?si=q6TcbH8W9Yftbi4w" target="_blank">
-      <img src="riyasat.jpg" alt="Riyasat" class="song-thumbnail"/>
-    </a>
-    <a href="https://youtu.be/qUmW8_IeI9U?si=biATniyyWmiiTIvt" target="_blank">
-      <img src="purusharth.jpg" alt="Purusharth" class="song-thumbnail"/>
-    </a>
-    <a href="https://youtu.be/y_E4FGMfKrM?si=tQbB8AgElnYC3h3k" target="_blank">
-      <img src="rao-yaari.jpg" alt="Rao Shabh Te Yaari" class="song-thumbnail"/>
-    </a>
-    <a href="https://youtu.be/CXFxScKsOhk?si=O7MmkHnqfI9rjzck" target="_blank">
-      <img src="kismat.jpg" alt="Kismat Te Rao Sahab" class="song-thumbnail"/>
-    </a>
-  </div>
-</section>
-
-<section id="artists">
-  <h2>🎙️ Know the Artists</h2>
-
-  <div class="artist">
-    <img src="deep-laath.jpg" alt="Deep Laath"/>
-    <p><strong>Deep Laath</strong> is a passionate singer, writer, and performer from Bassai village, Mahendergarh. He made his debut in January 2025 with the song <strong>Rao Shabh Te Yaari</strong>. Since then, he's written and performed many heartfelt tracks.  
-    <br><br><a href="https://instagram.com/deep_laath" target="_blank">@deep_laath</a></p>
-  </div>
-
-  <div class="artist">
-    <img src="mohit-heer.jpg" alt="Mohit Heer"/>
-    <p><strong>Mohit Heer</strong> is a versatile artist from Bassai, Mahendergarh. He debuted with the lyrical and vocal hit <strong>Rao Shabh Te Yaari</strong>. His unique voice and lyrics touch deep emotions.  
-    <br><br><a href="https://instagram.com/mohit_heer" target="_blank">@mohit_heer</a></p>
-  </div>
-
-  <div class="artist">
-    <img src="team.jpg" alt="Team Laathheer"/>
-    <p><strong>Team Laathheer</strong> is a group of passionate creators, lyricists, and performers. Founded by Deep Laath and Mohit Heer, with support from creators like Navdeep and Yogesh, this team brings raw and relatable Haryanvi content to life.  
-    <br><br><a href="https://instagram.com/team_laathheer" target="_blank">@team_laathheer</a></p>
-  </div>
-</section>
-
-<section class="contact">
-  <h2>📬 Contact Us</h2>
-  <p>Instagram: <a href="https://instagram.com/team_laathheer" target="_blank" alt="Team Laathheer Instagram">@team_laathheer</a></p>
-  <p>Email: <a href="mailto:teamlaathheer@gmail.com">teamlaathheer@gmail.com</a></p>
-</section>
-
-<footer>
-  Made with ♥️ by Team Laathheer (Navdeep & Yogesh)
-</footer>
-
+  </section>  <section class="contact">
+    <h2>Contact Us</h2>
+    <a href="https://instagram.com/team_laathheer" target="_blank">📷 Instagram: @team_laathheer</a>
+    <a href="mailto:teamlaathheer@gmail.com">✉️ Email: teamlaathheer@gmail.com</a>
+  </section>  <footer>
+    Made with ♥️ by Team Laathheer | Navdeep & Yogesh
+  </footer>
 </body>
 </html>
